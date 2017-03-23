@@ -1,0 +1,1 @@
+Recopilación de los exámenes que hemos ido realizando a lo largo del Curso de Fundación Telefónica en Alcoy 2017.
