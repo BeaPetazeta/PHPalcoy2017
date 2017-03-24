@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Página principal IceWeasel.</title>
+	<link rel="stylesheet" type="text/css" href="cssexamen.css">
+	<meta name="Author" content="Beatriz Zarzo Durá" >
+</head>
+<body>
+	<header>
+		<img src="iceweasel_logo.png" alt="Imágen logotipo IceWeasel" width="50px" height="50px" >
+		<h1>IceWeasel, navegador totalmente libre basado en Mozilla Firefox.</h1>
+	</header>
+	<main>
+		<img src="iceweasel_logo.png" alt="Imágen logotipo IceWeasel" width="200px" height="200px" >
+			<p>El navegador libre.</p>
+		<form action="/ejemplo.htm" method="post" >
+			<table>
+				<thead>
+					<tr>
+						<th colspan="2" >Introduce tus datos</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Nombre:</td>
+						<td><input type="text" name="user_name" placeholder="Nombre" ></td>
+					</tr>
+					<tr>
+						<td>Apellidos:</td>
+						<td><input type="text" name="surname" placeholder="Apellidos" ></td>
+					</tr>
+					<tr>
+						<td>Email:</td>
+						<td><input type="text" name="email" placeholder="Email" ></td>
+					</tr>
+					<tr>
+						<td>Teléfono:</td>
+						<td><input type="text" name="phone" placeholder="Teléfono" ></td>
+					</tr>
+					<tr>
+						<td>¿Qué otros navegadores utilizas?:</td>
+						<td>
+							<select multiple="" size="4" >
+							<option value="Chromium" selected="Chromium" > Chromium</option>
+							<option value="Firefox"> Firefox</option>
+							<option value="Internet Explorer"> Internet Explorer</option>
+							<option value="Opera"> Opera</option>
+						</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Danos tu opinión sobre IceWeasel:</td>
+						<td><textarea type="text" name="opinion" placeholder="Deja aquí tu opinión sobre IceWeasel" rows="8" ></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" >
+							<input type="submit" name="Enviar">
+							<input type="reset" name="Borrar">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</main>
+	<aside>
+		<h2>Últimas noticias:</h2>
+		<p>Liberada nueva versión de Debian Jessie 8.1</p>
+		<p>Opera Browser añade nuevos elementos de HTML5 y CSS3</p>
+	</aside>
+	<br>
+	<footer>
+		<a href="enlace1">Enlace 1</a>
+		<a href="enlace2">Enlace 2</a>
+	</footer>
+</body>
+</html>

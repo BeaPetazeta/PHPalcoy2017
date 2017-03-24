@@ -1,0 +1,46 @@
+header {
+	background: linear-gradient(blue, lightgrey);
+}
+main {
+	background-color: lightgrey;
+	float: left;
+	text-align: center;
+	width: 70%;
+}
+main img {
+	text-align: center;
+}
+body {
+	background-color: lightgrey;
+}
+footer {
+	text-align: center;
+	clear: both;
+}
+aside {
+	float: right;
+	width: 20%;
+}
+th {
+	border: black solid 1px;
+	border-collapse: collapse;
+	margin: 15px;
+	padding: 15px;
+}
+table {
+	border: black solid 1px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 50%;
+}
+tr td:first-child {
+	text-align: right;
+	margin: 2px;
+	padding: 2px;
+}
+select, input, textarea {
+	width: 200px;
+}
+input {
+	height: 20px;
+}
